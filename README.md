@@ -3,9 +3,10 @@ Addendum Repository to [ThermoFluidStream library](https://github.com/DLR-SR/The
 
 ## Validity of reference results
 
-| Results version (branch) | Valid for ThermoFluidStream version |
+| Results version (tag) | Valid for ThermoFluidStream version |
 |---|---|
 | [v1.0.0](https://github.com/DLR-SR/ThermoFluidStream-Regression/tree/v1.0.0) | [v1.0.0](https://github.com/DLR-SR/ThermofluidStream/releases/tag/v1.0.0)|
 | [v1.1.0](https://github.com/DLR-SR/ThermoFluidStream-Regression/releases/tag/v1.1.0) | [v1.1.0](https://github.com/DLR-SR/ThermofluidStream/releases/tag/v1.1.0)|
-
+| [v1.2.0](https://github.com/DLR-SR/ThermoFluidStream-Regression/releases/tag/v1.2.0) | [v1.2.0](https://github.com/DLR-SR/ThermofluidStream/releases/tag/v1.2.0)|
+| [v1.3.0](https://github.com/DLR-SR/ThermoFluidStream-Regression/releases/tag/v1.3.0) | [v1.3.0](https://github.com/DLR-SR/ThermofluidStream/releases/tag/v1.3.0)|
 
