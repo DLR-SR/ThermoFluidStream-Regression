@@ -1,11 +1,11 @@
 # Setup file for list of simulations within PySimulator (DLR)
-# Generated from Dymola on Fri Jul 31 09:08:04 2026
+# Generated from Dymola on Wed Aug 12 10:07:20 2026
 
 # General settings for ThermofluidStream
 #
 # List of models to be simulated
 # Library path  |  Model name  |  tStart  |  tStop  |  errorTolerance  |  nIntervals  |  includeEvents  |  method
-D:/04_ModelicaLib/ThermofluidStream/ThermofluidStream/package.mo  ThermofluidStream.Examples.SimpleStream  0  100  1e-6  101  false  Dassl
+ThermofluidStream.Examples.SimpleStream  0  100  1e-6  101  false  Dassl
 ThermofluidStream.Examples.SimpleAirCycle  0  100  1e-6  101  false  Dassl
 ThermofluidStream.Examples.SimpleEngine  0  25  1e-6  101  false  Dassl
 ThermofluidStream.Examples.SimpleGasTurbine  0  100  1e-6  101  false  Dassl
@@ -101,6 +101,7 @@ ThermofluidStream.Idealized.Tests.Topology.SplitterNeglectInertance  0  1  1e-6 
 ThermofluidStream.Idealized.Tests.Topology.JunctionT1  0  1  1e-6  101  false  Dassl
 ThermofluidStream.Idealized.Tests.Topology.JunctionT2  0  1  1e-6  101  false  Dassl
 ThermofluidStream.Idealized.Tests.Processes.PseudoSource  0  1  1e-6  101  false  Dassl
+ThermofluidStream.Idealized.Tests.Processes.Icons  0  1.1  1e-6  101  false  Dassl
 ThermofluidStream.Idealized.Tests.Processes.Adiabatic.Fixed1  0  1  1e-6  101  false  Dassl
 ThermofluidStream.Idealized.Tests.Processes.Adiabatic.Fixed2  0  1  1e-6  101  false  Dassl
 ThermofluidStream.Idealized.Tests.Processes.Adiabatic.Fixed3  0  1  1e-6  101  false  Dassl
@@ -181,6 +182,8 @@ ThermofluidStream.FlowControl.Tests.SpecificValveType  0  20  1e-6  101  false  
 ThermofluidStream.FlowControl.Tests.MCV  0  10  1e-05  1500  false  Dassl
 ThermofluidStream.FlowControl.Tests.PCV  0  1  1e-05  1500  false  Dassl
 ThermofluidStream.FlowControl.Tests.Switch  0  10  1e-6  101  false  Dassl
+ThermofluidStream.FlowControl.Tests.ValveReferenceValues  0  20  1e-6  101  false  Dassl
+ThermofluidStream.FlowControl.Tests.ThreeWayValve  0  10  1e-6  101  false  Dassl
 ThermofluidStream.Sensors.Tests.TestSensors  0  1  1e-6  101  false  Dassl
 ThermofluidStream.Undirected.Interfaces.Tests.Test_p_out_clipping  0  1  1e-6  101  false  Dassl
 ThermofluidStream.Undirected.Boundaries.Tests.TestBoundaries  0  10  1e-6  101  false  Dassl
@@ -205,6 +208,7 @@ ThermofluidStream.Undirected.FlowControl.Tests.TanValve  0  100  1e-6  101  fals
 ThermofluidStream.Undirected.FlowControl.Tests.BasicControlValve  0  20  1e-6  101  false  Dassl
 ThermofluidStream.Undirected.FlowControl.Tests.SpecificValveType  0  20  1e-6  101  false  Dassl
 ThermofluidStream.Undirected.FlowControl.Tests.MCV  0  10  1e-6  101  false  Dassl
+ThermofluidStream.Undirected.FlowControl.Tests.ValveReferenceValues_Undirected  0  20  1e-6  101  false  Dassl
 ThermofluidStream.Undirected.Sensors.Tests.TestSensors  0  10  1e-6  101  false  Dassl
 ThermofluidStream.Media.Tests.TestXRGMedia  0  10  1e-6  101  false  Dassl
 ThermofluidStream.Media.additionalMedia.Incompressible.Tests.TestDowcal100  0  225  1e-05  101  false  Dassl
